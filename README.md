@@ -7,7 +7,7 @@ This repository sharing my practice on Reinforcement Learning (RL) in the OpanAI
 3. Classic Control
 
 ### Log
-2022-03-13 Uploaded Atari - MsPacman
+2022-03-13 Uploaded Atari - MsPacman-v0-1M_timesteps.ipynb
 
 <img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/MsPacman-v0/poster.jpg' width='250px'/>
 
