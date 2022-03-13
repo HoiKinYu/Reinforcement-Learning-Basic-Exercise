@@ -12,6 +12,6 @@ This repository sharing my practice on Reinforcement Learning (RL) in the OpanAI
 <img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/MsPacman-v0/poster.jpg' width='250px'/>
 
 ***Summary:***
-The agaent trained after 3 million timesteps are doing pretty good job (average score 2000 out of 2600). I feel confidence that if further incrase number of timesteps up to 5 million during, the agent wll be able to finish the MsPacman game with maximun score 2600.
+I tried to ***compare the agaent's performance different between trained for 1 million and 3 million timesteps*** by using exactly the same parameters except number of timesteps to train both agents. The result show that the Agent's performance after training for 3 million timesteps perfrom 55% better in terms of scores received, but the time spending for training by CUP are 3 times more compare to the Agent's performance after training only for 1 million timesteps. 
 
 Hope you enjoy it! Please share with me if you have even better solution or some other interesting environment for practicing RL purpose.
