@@ -1,4 +1,4 @@
-# Reinforcement_Learning
+# Reinforcement Learning Exercises used OpenAI Gym
 Practical Reinforcement Learning Exercise 
 
 This repository sharing my practice on Reinforcement Learning (RL) in the OpanAI Gym  http://gym.openai.com by different RL methods.
