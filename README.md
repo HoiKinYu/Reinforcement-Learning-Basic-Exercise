@@ -13,7 +13,7 @@ This repository sharing my practice on Reinforcement Learning (RL) in the OpanAI
 
 ***Executive Summary:***
 
-In this notebook, a car is on a one-dimensional track, positioned between two "mountains". ***The goal is to drive up the mountain reaches the flag on the right***. I try differnet methods to complete this goal, by comparing the retrained agent with more training timesteps (total 500k) and larger learning rate (1e-3), the car reaches the flag on the right with ***20% timesteps saving than the simple policy*** without any learning and ***32% timesteps saving than the agent's with less training timesteps (total 200k) and smaller learning rate (1e-4)***.   
+In this notebook, a car is on a one-dimensional track, positioned between two "mountains". ***The goal is to drive up the mountain reaches the flag on the right***. I try differnet methods to complete this goal, by comparing the retrained agent with more training steps (total 500k) and larger learning rate (1e-3), the car reaches the flag on the right with ***20% timesteps saving than the simple policy*** without any learning and ***32% timesteps saving than the agent with less training timesteps (total 200k) and smaller learning rate (1e-4)***.   
 
 ----------------------------------------------------------------------------------------------------------
 2022-03-14 Uploaded ***Atari - SpaceInvaders-v0.ipynb***
