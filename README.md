@@ -7,6 +7,15 @@ This repository sharing my practice on Reinforcement Learning (RL) in the OpanAI
 3. Classic Control
 
 ### Logs:
+2022-03-19 Uploaded ***Class Control - CartPole-v1.ipynb***
+
+<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/CartPole-v1/poster.jpg' width='250px'/>
+
+***Executive Summary:***
+
+In this notebook, a pole is attached by an un-actuated joint to a cart, which moves along a frictionless track and ***the goal is to prevent it from falling over.*** I try differnet methods to complete this goal. First, ***a simle policy to choose actions by monitoring the Velocity of Pole Angular***, but the ***average score only reach 181 out of 500***. Second, the ***agent with deep learning nerual network with Keras*** received 500 out of 500 scores starting from 36220 episode***. Finally, the ***agent with Epsilon-Greedy Policy reach perfect score at epoch #31*** during the learning process in only 6 minutes of learning.
+
+----------------------------------------------------------------------------------------------------------
 2022-03-19 Uploaded ***Class Control - MountainCar-v0 added Epsilon-Greedy Policy.ipynb***
 
 ***Executive Summary:***
