@@ -7,13 +7,19 @@ This repository sharing my practice on Reinforcement Learning (RL) in the OpanAI
 3. Classic Control
 
 ### Logs:
-2022-03-17 Uploaded ***Class Control - MountainCar-v0.ipynb***
-
-<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/MountainCar-v0/poster.jpg' width='250px'/>
+2022-03-19 Uploaded ***Class Control - MountainCar-v0 added Epsilon-Greedy Policy.ipynb***
 
 ***Executive Summary:***
 
-In this notebook, a car is on a one-dimensional track, positioned between two "mountains". ***The goal is to drive up the mountain reaches the flag on the right***. I try differnet methods to complete this goal, by comparing the retrained agent with more training steps (total 500k) and larger learning rate (1e-3), the car reaches the flag on the right with ***20% timesteps saving than the simple policy*** without any learning and ***32% timesteps saving than the agent with less training timesteps (total 200k) and smaller learning rate (1e-4)***.   
+I added 2 sections in the last Class Control - MountainCar-v0 notebook. The Agent with ***Epsilon-Greedy Policy did not learn well in 100 epoch***, and then I revised the network remain with 4 layers but ***decrease trainable params to 8,835*** and ***increase number of epoch to 500***, set the learning procress stop when ***the mean of session rewards > -85*** (which is the performance of the second agent in section 5.3 last notebook. The ***learning process stop at epoch #274 (time spend: 1hr 48min)*** and the car reaches the flag on the right.
+
+<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/MountainCar-v0/poster.jpg' width='250px'/>
+
+2022-03-17 Uploaded ***Class Control - MountainCar-v0.ipynb***
+
+***Executive Summary:***
+
+In this notebook, a car is on a one-dimensional track, positioned between two "mountains". ***The goal is to drive up the mountain reaches the flag on the right***. I try differnet methods to complete this goal, by comparing the retrained agent with more training steps (total 500k) and larger learning rate (1e-3), the car reaches the flag on the right with ***20% timesteps saving than the simple policy*** without any learning and ***32% timesteps saving than the agent with less training timesteps (total 200k) and smaller learning rate (1e-4)***.
 
 ----------------------------------------------------------------------------------------------------------
 2022-03-14 Uploaded ***Atari - SpaceInvaders-v0.ipynb***
