@@ -7,6 +7,16 @@ This repository sharing my practice on Reinforcement Learning (RL) in the OpanAI
 3. Classic Control
 
 ### Logs:
+2022-03-22 Uploaded ***Box2D - LunarLander-v2 220322.ipynb***
+
+<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/LunarLander-v2/poster.jpg' width='250px'/>
+
+***Executive Summary:***
+
+In this notebook, the environment is a classic rocket trajectory optimization problem. ***The goal is to land the lunar lander moving from the top of the screen to the landing pad.*** I try differnet methods to complete this goal. First, I create a ***Deep Learning Model with Keras***, after 1 milliom timesteps of learning (Time spend: 1hr 25min), the agent received ***score between -10 to 277 (average 218.0). The Lunar Lander landing on the ground 4 out of 5 times properly.*** Second, I use the agent with ***Epsilon-Greedy Policy***, it stop learning at epoch #85 with ***average reward 302*** (time spend: 1hr 19min). Finally, I use ***PPO Model in Stable_baseline3***, the ***average reward rise to above 160 consistently after 2.25M learning timesteps*** and the average length of episode after 2.25M learning timesteps is around 350.
+
+----------------------------------------------------------------------------------------------------------
+
 2022-03-19 Uploaded ***Class Control - CartPole-v1.ipynb***
 
 <img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/CartPole-v1/poster.jpg' width='250px'/>
