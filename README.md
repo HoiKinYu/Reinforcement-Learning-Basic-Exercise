@@ -7,7 +7,7 @@ This repository sharing my practice on Reinforcement Learning (RL) in the OpanAI
 3. Classic Control
 
 ### Logs:
-2022-03-22 Uploaded ***Box2D - LunarLander-v2 220322.ipynb***
+2022-03-23 Uploaded ***Box2D - LunarLander-v2 220323.ipynb***
 
 <img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/LunarLander-v2/poster.jpg' width='250px'/>
 
