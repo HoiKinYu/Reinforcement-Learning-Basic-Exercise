@@ -5,8 +5,21 @@ This repository sharing my practice on Reinforcement Learning (RL) in the OpanAI
 1. Atari
 2. Box2D
 3. Classic Control
+4. MuJoCo
 
 ### Logs:
+2022-03-28 Uploaded ***MuJoCo - Humanoid-v2 220329.ipynb***
+
+<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/Humanoid-v2/poster.jpg' width='250px'/>
+
+***Executive Summary:***
+
+In this notebook, ***The goal is make a three-dimensional bipedal robot walk forward as fast as possible, without falling over***. First, I started with taken random action only and recorded score between 83 to 145 (average 112), that means ***the robot falling over very quickly***. After that, I used ***Epsilon-Greedy Policy*** to train an agent in order to complete this goal. As a result, ***Agent with Epsilon-Greedy Policy stop learning process at epoch #201 with average reward 1014*** (time spend: 40min)
+
+***Important Note: install mujoco_py version 2.0.2.8*** instead of latest version
+
+----------------------------------------------------------------------------------------------------------
+
 2022-03-23 Uploaded ***Box2D - LunarLander-v2 220323.ipynb***
 
 <img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/LunarLander-v2/poster.jpg' width='250px'/>
