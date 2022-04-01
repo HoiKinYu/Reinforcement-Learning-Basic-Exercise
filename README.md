@@ -8,6 +8,17 @@ This repository sharing my practice on Reinforcement Learning (RL) in the OpanAI
 4. MuJoCo
 
 ### Logs:
+2022-04-01 Uploaded ***MuJoCo - HumanoidStandup-v2 PPO 220401.ipynb***
+
+<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/HumanoidStandup-v2/poster.jpg' width='250px'/>
+
+***Executive Summary:***
+
+In this notebook, ***the goal of the environment is to make the humanoid standup*** and ***then keep it standing by applying torques on the various hinges***. First, I started with taken random actions ***The body of robot keep on the ground all the time and only both legs are moving around but fail to standup***, at the end of each episode score receive between 32648 to 33854 (average 33418). After that, I used ***stable_baselines3 PPO model to traing the Agent*** to train an agent in order to complete this goal. As a result, ***Agent best performance during the learning at 2.6 million timesteps***, the ***average reward received 148623*** (time spend: 50min), that is almost 5 times better performance than taken random actions.
+
+----------------------------------------------------------------------------------------------------------
+
+
 2022-03-28 Uploaded ***MuJoCo - Humanoid-v2 220329.ipynb***
 
 <img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/Humanoid-v2/poster.jpg' width='250px'/>
