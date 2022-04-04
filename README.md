@@ -6,8 +6,21 @@ This repository sharing my practice on Reinforcement Learning (RL) in the OpanAI
 2. Box2D
 3. Classic Control
 4. MuJoCo
+5. Robotics
+
 
 ### Logs:
+2022-04-04 Uploaded ***Robotics - FetchReach-v1 - 220404.ipynb***
+
+<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/FetchReach-v1/poster.jpg' width='250px'/>
+
+***Executive Summary:***
+
+In this notebook, ***A goal position is randomly chosen in 3D space. Control Fetch's end effector to reach that goal as quickly as possible***. First, I started with taken random actions ***The fetch fail to pick up anything at all***, at the end of each episode score receive -50 all the time. After that, I used ***stable_baselines3 PPO model to traing the Agent*** to train an agent in order to complete this goal. As a result, ***Agent best performance during the learning at 1.1 million timesteps***, the ***average reward received -4.4*** (time spend: 36min 42second), ***the agent perform significantly better and the fetch directly reach the red ball immediatly all the time***.
+
+----------------------------------------------------------------------------------------------------------
+
+
 2022-04-01 Uploaded ***MuJoCo - HumanoidStandup-v2 PPO 220401.ipynb***
 
 <img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/HumanoidStandup-v2/poster.jpg' width='250px'/>
