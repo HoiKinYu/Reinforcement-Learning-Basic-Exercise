@@ -1,4 +1,4 @@
-# Reinforcement Learning Exercise in OpenAI Gym
+# Reinforcement Learning Basic Exercise
 This repository sharing my practice on Reinforcement Learning (RL) in the OpanAI Gym  http://gym.openai.com by different RL methods.
 
 ### Environments provided in OpenAI:
