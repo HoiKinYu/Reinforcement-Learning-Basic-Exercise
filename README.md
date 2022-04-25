@@ -10,6 +10,16 @@ This repository sharing my practice on Reinforcement Learning (RL) in the OpanAI
 
 
 ### Logs:
+2022-04-25 Uploaded ***Class Control - CartPole-v1 220424.ipynb***
+
+<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/CartPole-v1/poster.jpg' width='250px'/>
+
+***Executive Summary:***
+
+In this notebook, a pole is attached by an un-actuated joint to a cart, which moves along a frictionless track and ***the goal is to prevent it from falling over.*** I try differnet methods to complete this goal. First, ***a simle policy to choose actions by monitoring the Velocity of Pole Angular***, but the ***average score only reach 181 out of 500***. Second, the ***agent with deep learning nerual network with Keras*** received 500 out of 500 scores starting from 36220 episode***. Third, the ***agent with Epsilon-Greedy Policy reach perfect score at epoch #31*** during the learning process in only 6 minutes of learning. Forth, the ***agent with Deep Crossentropy Method (Monte Carlo Method)*** with ***mean reward reach 499 at around 25 sessions***. Finally, the ***Actor Critic Network with 2 fully conneted layers***, it reach ***highest performance in episode 8437 with score 364*** and ***avgerage score 335.9***. (Time spend 9h 45min)
+
+----------------------------------------------------------------------------------------------------------
+
 2022-04-04 Uploaded ***Robotics - FetchReach-v1 - 220404.ipynb***
 
 <img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/FetchReach-v1/poster.jpg' width='250px'/>
@@ -20,7 +30,6 @@ In this notebook, ***A goal position is randomly chosen in 3D space. Control Fet
 
 ----------------------------------------------------------------------------------------------------------
 
-
 2022-04-01 Uploaded ***MuJoCo - HumanoidStandup-v2 PPO 220401.ipynb***
 
 <img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/HumanoidStandup-v2/poster.jpg' width='250px'/>
@@ -30,7 +39,6 @@ In this notebook, ***A goal position is randomly chosen in 3D space. Control Fet
 In this notebook, ***the goal of the environment is to make the humanoid standup*** and ***then keep it standing by applying torques on the various hinges***. First, I started with taken random actions ***The body of robot keep on the ground all the time and only both legs are moving around but fail to standup***, at the end of each episode score receive between 32648 to 33854 (average 33418). After that, I used ***stable_baselines3 PPO model to traing the Agent*** to train an agent in order to complete this goal. As a result, ***Agent best performance during the learning at 2.6 million timesteps***, the ***average reward received 148623*** (time spend: 50min), that is almost 5 times better performance than taken random actions.
 
 ----------------------------------------------------------------------------------------------------------
-
 
 2022-03-28 Uploaded ***MuJoCo - Humanoid-v2 220329.ipynb***
 
@@ -54,15 +62,6 @@ In this notebook, the environment is a classic rocket trajectory optimization pr
 
 ----------------------------------------------------------------------------------------------------------
 
-2022-03-19 Uploaded ***Class Control - CartPole-v1.ipynb***
-
-<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/CartPole-v1/poster.jpg' width='250px'/>
-
-***Executive Summary:***
-
-In this notebook, a pole is attached by an un-actuated joint to a cart, which moves along a frictionless track and ***the goal is to prevent it from falling over.*** I try differnet methods to complete this goal. First, ***a simle policy to choose actions by monitoring the Velocity of Pole Angular***, but the ***average score only reach 181 out of 500***. Second, the ***agent with deep learning nerual network with Keras*** received 500 out of 500 scores starting from 36220 episode***. Finally, the ***agent with Epsilon-Greedy Policy reach perfect score at epoch #31*** during the learning process in only 6 minutes of learning.
-
-----------------------------------------------------------------------------------------------------------
 2022-03-19 Uploaded ***Class Control - MountainCar-v0 added Epsilon-Greedy Policy.ipynb***
 
 ***Executive Summary:***
@@ -78,6 +77,7 @@ I added 2 sections in the last Class Control - MountainCar-v0 notebook. The Agen
 In this notebook, a car is on a one-dimensional track, positioned between two "mountains". ***The goal is to drive up the mountain reaches the flag on the right***. I try differnet methods to complete this goal, by comparing the retrained agent with more training steps (total 500k) and larger learning rate (1e-3), the car reaches the flag on the right with ***20% timesteps saving than the simple policy*** without any learning and ***32% timesteps saving than the agent with less training timesteps (total 200k) and smaller learning rate (1e-4)***.
 
 ----------------------------------------------------------------------------------------------------------
+
 2022-03-14 Uploaded ***Atari - SpaceInvaders-v0.ipynb***
 
 <img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/SpaceInvaders-v0/poster.jpg' width='250px'/>
