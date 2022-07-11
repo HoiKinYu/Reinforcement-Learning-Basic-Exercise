@@ -12,7 +12,7 @@ This repository sharing my practice on Reinforcement Learning (RL) in the OpanAI
 ### Logs:
 2022-04-25 Uploaded ***Class Control - CartPole-v1 220424.ipynb***
 
-<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/CartPole-v1/poster.jpg' width='250px'/>
+<img src='image/cartpole.gif' width='250px'/>
 
 ***Executive Summary:***
 
@@ -22,7 +22,7 @@ In this notebook, a pole is attached by an un-actuated joint to a cart, which mo
 
 2022-04-04 Uploaded ***Robotics - FetchReach-v1 - 220404.ipynb***
 
-<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/FetchReach-v1/poster.jpg' width='250px'/>
+<img src='image/fetchreach.gif' width='250px'/>
 
 ***Executive Summary:***
 
@@ -32,7 +32,7 @@ In this notebook, ***A goal position is randomly chosen in 3D space. Control Fet
 
 2022-04-01 Uploaded ***MuJoCo - HumanoidStandup-v2 PPO 220401.ipynb***
 
-<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/HumanoidStandup-v2/poster.jpg' width='250px'/>
+<img src='image/humanoid_standup.gif' width='250px'/>
 
 ***Executive Summary:***
 
@@ -42,7 +42,7 @@ In this notebook, ***the goal of the environment is to make the humanoid standup
 
 2022-03-28 Uploaded ***MuJoCo - Humanoid-v2 220329.ipynb***
 
-<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/Humanoid-v2/poster.jpg' width='250px'/>
+<img src='image/humanoid.gif' width='250px'/>
 
 ***Executive Summary:***
 
@@ -54,7 +54,7 @@ In this notebook, ***The goal is make a three-dimensional bipedal robot walk for
 
 2022-03-23 Uploaded ***Box2D - LunarLander-v2 220323.ipynb***
 
-<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/LunarLander-v2/poster.jpg' width='250px'/>
+<img src='image/lunar_lander.gif' width='250px'/>
 
 ***Executive Summary:***
 
@@ -68,7 +68,7 @@ In this notebook, the environment is a classic rocket trajectory optimization pr
 
 I added 2 sections in the last Class Control - MountainCar-v0 notebook. The Agent with ***Epsilon-Greedy Policy did not learn well in 100 epoch***, and then I revised the network remain with 4 layers but ***decrease trainable params to 8,835*** and ***increase number of epoch to 500***, set the learning procress stop when ***the mean of session rewards > -85*** (which is the performance of the second agent in section 5.3 last notebook. The ***learning process stop at epoch #274 (time spend: 1hr 48min)*** and the car reaches the flag on the right.
 
-<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/MountainCar-v0/poster.jpg' width='250px'/>
+<img src='image/mountain_car.gif' width='250px'/>
 
 2022-03-17 Uploaded ***Class Control - MountainCar-v0.ipynb***
 
@@ -80,7 +80,7 @@ In this notebook, a car is on a one-dimensional track, positioned between two "m
 
 2022-03-14 Uploaded ***Atari - SpaceInvaders-v0.ipynb***
 
-<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/SpaceInvaders-v0/poster.jpg' width='250px'/>
+<img src='image/space_invaders.gif' width='250px'/>
 
 ***Executive Summary:***
 
@@ -90,7 +90,7 @@ I tried to ***build a deep learning model with Tensorflow for reinforcement lear
 
 2022-03-13 Uploaded ***Atari - MsPacman-v0-3M_timesteps.ipynb***
 
-<img src='http://gym.openai.com/videos/2019-10-21--mqt8Qj1mwo/MsPacman-v0/poster.jpg' width='250px'/>
+<img src='image/mspacman.gif' width='250px'/>
 
 ***Executive Summary:***
 
