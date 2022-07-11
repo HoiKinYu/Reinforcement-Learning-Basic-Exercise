@@ -12,7 +12,7 @@ This repository sharing my practice on Reinforcement Learning (RL) in the OpanAI
 ### Logs:
 2022-04-25 Uploaded ***Class Control - CartPole-v1 220424.ipynb***
 
-<img src='image/cartpole.gif' width='250px'/>
+<img src='image/cart_pole.gif' width='250px'/>
 
 ***Executive Summary:***
 
@@ -22,7 +22,7 @@ In this notebook, a pole is attached by an un-actuated joint to a cart, which mo
 
 2022-04-04 Uploaded ***Robotics - FetchReach-v1 - 220404.ipynb***
 
-<img src='image/fetchreach.gif' width='250px'/>
+<img src='image/fetch_reach.gif' width='250px'/>
 
 ***Executive Summary:***
 
